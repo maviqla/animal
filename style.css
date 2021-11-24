@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css2?family=VT323&display=swap);
+
+body, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'VT323', monospace;
+     
+}
+
+a {
+    text-decoration: none;
+    color: rgb(125, 60, 138);
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+   
+   
+}
+
+#neonText {
+    font-size: 120px;
+    font-family: 'VT323', monospace;
+    color: white;
+    text-shadow:
+        0 0 7px rgb(180, 38, 109),
+        0 0 10px rgb(180, 38, 109),
+        0 0 21px rgb(180, 38, 109),
+        0 0 42px rgb(180, 38, 109),
+        0 0 82px rgb(180, 38, 109),
+        0 0 92px rgb(180, 38, 109),
+        0 0 102px rgb(180, 38, 109),
+        0 0 151px rgb(180, 38, 109);
+  }
+
+  #firstbox {
+      background-image: url(flamingoback.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 700px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  #card {
+      width: 900px;
+      height: 500px;
+      background-color:  #f3104d;
+      border-radius: 12%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      text-align: justify;
+      font-size: 18px;
+    
+  }
+
+#card.h1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;    
+}
+
+#columntxt {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+
+}
+
+#imgbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1200px;
+
+}
+
+#imgbox.img {
+    width: 200px;
+    height: 200px;
+}
